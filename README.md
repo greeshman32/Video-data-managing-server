@@ -17,7 +17,7 @@ format= {
         }
 [LiveLink](https://xflix-backend-s2qe.onrender.com/v1/videos)
 
-###endpoint -> /
+### endpoint -> /
 
 POST 
   You can add a video to the database.
@@ -30,7 +30,7 @@ Link queries:
  3. contentRating: one of [Anyone, +7, +12, +18, All]
  4. genres: any of ["Education", "Sports", "Movies", "Comedy", "Lifestyle", “All” ]
 
-###enpoint -> /:vidoeID/
+### enpoint -> /:vidoeID/
 
 GET / -> get a single video corresponding to the id
 
