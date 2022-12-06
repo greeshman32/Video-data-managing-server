@@ -32,12 +32,12 @@ Link queries:
 
 ### enpoint -> /:vidoeID/
 
-`GET / -> get a single video corresponding to the id`
+`GET /` -> get a single video corresponding to the id
 
-`PATCH /votes -> increase UpVote or DownVote`
+`PATCH /votes` -> increase UpVote or DownVote
   Body format:{
       vote: UpVote or DownVote,
       change: increase or decrease,
   }
 
-`PATCH /views -> Increases the view count`
+`PATCH /views ->` Increases the view count
