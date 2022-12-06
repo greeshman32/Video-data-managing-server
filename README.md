@@ -3,7 +3,7 @@
 ## This is a backend API to get and store videos
 
 format= {
- ...........videoLink": "youtube.com/embed/vxxN3_bs6Uo" (Should follow the exact format),
+............videoLink": "youtube.com/embed/vxxN3_bs6Uo" (Should follow the exact format),
 ............"title": "Fireside chat with Binny Bansal",
 ............"genre": one of ["Education", "Sports", "Movies", "Comedy", "Lifestyle", “All” ],
 ............"contentRating": one of [Anyone, +7, +12, +18, All],
