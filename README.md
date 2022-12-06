@@ -3,18 +3,18 @@
 ## This is a backend API to get and store videos
 
 format= {<br/>
-<tb/><tb/> "videoLink": "youtube.com/embed/vxxN3_bs6Uo" (Should follow the exact format),<br/>
-<tb/><tb/> "title": "Fireside chat with Binny Bansal",<br/>
- <tb/><tb/> "genre": one of ["Education", "Sports", "Movies", "Comedy", "Lifestyle", “All” ],<br/>
-<tb/><tb/> "contentRating": one of [Anyone, +7, +12, +18, All],<br/>
- <tb/><tb/> "releaseDate": "12 Jan 2021",<br/>
- <tb/><tb/> "previewImage":"https://i.ytimg.com/vi/vxxN3_bs6Uo/maxresdefault.jpg",<br/>
-<tb/><tb/> "votes": {<br/>
-<tb/><tb/><tb/><tb/> "upVotes": "0",<br/>
-<tb/><tb/><tb/><tb/> "downVotes": "0"<br/>
- <tb/><tb/> },<br/>
-<tb/><tb/> "viewCount": "0",<br/>
-<tb/><tb/> }<br/>
+<tb/><tb/><tb/> "videoLink": "youtube.com/embed/vxxN3_bs6Uo" (Should follow the exact format),<br/>
+<tb/><tb/><tb/> "title": "Fireside chat with Binny Bansal",<br/>
+ <tb/><tb/><tb/> "genre": one of ["Education", "Sports", "Movies", "Comedy", "Lifestyle", “All” ],<br/>
+<tb/><tb/><tb/> "contentRating": one of [Anyone, +7, +12, +18, All],<br/>
+ <tb/><tb/><tb/> "releaseDate": "12 Jan 2021",<br/>
+ <tb/><tb/><tb/> "previewImage":"i.ytimg.com/vi/vxxN3_bs8Uo/maxresdefault.jpg",<br/>
+<tb/><tb/><tb/> "votes": {<br/>
+<tb/><tb/><tb/><tb/><tb/> "upVotes": "0",<br/>
+<tb/><tb/><tb/><tb/><tb/> "downVotes": "0"<br/>
+ <tb/><tb/><tb/> },<br/>
+<tb/><tb/><tb/> "viewCount": "0",<br/>
+<tb/><tb/><tb/> }<br/>
 [LiveLink](https://xflix-backend-s2qe.onrender.com/v1/videos)
 
 ### endpoint -> /
@@ -34,10 +34,10 @@ Link queries:
 
 `GET /` -> get a single video corresponding to the id
 
-`PATCH /votes` -> increase UpVote or DownVote
-  Body format:{
-      vote: UpVote or DownVote,
-      change: increase or decrease,
-  }
+`PATCH /votes` -> increase UpVote or DownVote <br/>
+  Body format:{<br/>
+<tb/><tb/>vote: UpVote or DownVote,<br/>
+<tb/><tb/>change: increase or decrease,<br/>
+ <tb/>}
 
 `PATCH /views ->` Increases the view count
