@@ -2,19 +2,19 @@
 
 ## This is a backend API to get and store videos
 
-format= {
-         ...videoLink": "youtube.com/embed/vxxN3_bs6Uo" (Should follow the exact format),
-         ..."title": "Fireside chat with Binny Bansal",
-         ..."genre": one of ["Education", "Sports", "Movies", "Comedy", "Lifestyle", “All” ],
-         ..."contentRating": one of [Anyone, +7, +12, +18, All],
-         ..."releaseDate": "12 Jan 2021",
-         ..."previewImage":"https://i.ytimg.com/vi/vxxN3_bs6Uo/maxresdefault.jpg",
-         ..."votes": {
-                 ..."upVotes": "0",
-                 ..."downVotes": "0"
-         ...},
-         ..."viewCount": "0",
-        }
+format= {<br/>
+<tb/><tb/> "videoLink": "youtube.com/embed/vxxN3_bs6Uo" (Should follow the exact format),<br/>
+<tb/><tb/> "title": "Fireside chat with Binny Bansal",<br/>
+ <tb/><tb/> "genre": one of ["Education", "Sports", "Movies", "Comedy", "Lifestyle", “All” ],<br/>
+<tb/><tb/> "contentRating": one of [Anyone, +7, +12, +18, All],<br/>
+ <tb/><tb/> "releaseDate": "12 Jan 2021",<br/>
+ <tb/><tb/> "previewImage":"https://i.ytimg.com/vi/vxxN3_bs6Uo/maxresdefault.jpg",<br/>
+<tb/><tb/> "votes": {<br/>
+<tb/><tb/><tb/><tb/> "upVotes": "0",<br/>
+<tb/><tb/><tb/><tb/> "downVotes": "0"<br/>
+ <tb/><tb/> },<br/>
+<tb/><tb/> "viewCount": "0",<br/>
+<tb/><tb/> }<br/>
 [LiveLink](https://xflix-backend-s2qe.onrender.com/v1/videos)
 
 ### endpoint -> /
